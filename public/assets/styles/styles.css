@@ -1,0 +1,19 @@
+body {
+  background-color: #111;
+}
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #eee;
+  font-family: "Roboto Mono", monospace;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: minmax(320px, 640px);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
