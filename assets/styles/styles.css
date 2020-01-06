@@ -1,12 +1,27 @@
 body {
   background-color: #111;
+  font-family: "Roboto Mono", monospace;
+  color: #eee;
+}
+
+a {
+  color: #eee;
+}
+
+nav {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  text-align: center;
+}
+
+nav a {
 }
 
 .container {
   margin-left: 16px;
   margin-right: 16px;
-  color: #eee;
-  font-family: "Roboto Mono", monospace;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -14,10 +29,42 @@ body {
   text-align: center;
 }
 
-img {
+.container img {
   max-width: 100%;
 }
 
-a {
-  color: #eee;
+.section {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#members .grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  grid-gap: 16px 16px;
+}
+
+.card {
+  box-shadow: 0 0.5em 2em -0.125em rgba(150, 150, 150, 0.1), 0 0 0 1px rgba(245, 245, 245, 0.02);
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.card-header img {
+  border-radius: 50%;
+  max-width: 80%;
+}
+
+.card-header h4,
+.card-header h5 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.card-body {
+  text-align: left;
 }
