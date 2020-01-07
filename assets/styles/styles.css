@@ -16,21 +16,19 @@ nav {
   text-align: center;
 }
 
-nav a {
-}
-
 .container {
   margin-left: 16px;
   margin-right: 16px;
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: minmax(320px, 640px);
+  grid-template-columns: minmax(320px, 900px);
   text-align: center;
 }
 
 .container img {
-  max-width: 100%;
+  width: 85%;
+  max-width: 450px;
 }
 
 .section {
@@ -41,12 +39,12 @@ nav a {
 #members .grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 284px));
   grid-gap: 16px 16px;
 }
 
 .card {
-  box-shadow: 0 0.5em 2em -0.125em rgba(150, 150, 150, 0.1), 0 0 0 1px rgba(245, 245, 245, 0.02);
+  box-shadow: 0 0.5em 2em -0.125em rgba(150, 150, 150, 0.05), 0 0 0 1px rgba(245, 245, 245, 0.01);
 }
 
 .card-header {
@@ -56,7 +54,7 @@ nav a {
 
 .card-header img {
   border-radius: 50%;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .card-header h4,
