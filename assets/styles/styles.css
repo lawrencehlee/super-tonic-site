@@ -26,9 +26,9 @@ nav {
   text-align: center;
 }
 
-.container img {
+.container img, iframe {
   width: 85%;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 .section {
@@ -65,4 +65,8 @@ nav {
 
 .card-body {
   text-align: left;
+}
+
+#media iframe, img {
+  margin-bottom: 8px;
 }
