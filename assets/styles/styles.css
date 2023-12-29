@@ -2,6 +2,8 @@ body {
   background-color: #111;
   font-family: "M PLUS 2", sans-serif;
   color: #eee;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -67,6 +69,18 @@ nav {
   text-align: left;
 }
 
-#media iframe, img {
+#media iframe, #media img {
   margin-bottom: 8px;
+}
+
+#banner {
+  background-image: url("https://super-tonic-website-assets.s3.us-west-1.amazonaws.com/img/anime-impulse-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  text-shadow: -1px 1px 8px black;
+  padding-bottom: 2em;
+}
+
+#banner p {
+  margin-top: 0;
 }
