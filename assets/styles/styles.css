@@ -47,6 +47,7 @@ nav {
 
 .card {
   box-shadow: 0 0.5em 2em -0.125em rgba(150, 150, 150, 0.05), 0 0 0 1px rgba(245, 245, 245, 0.01);
+  padding-bottom: 16px;
 }
 
 .card-header {
@@ -83,4 +84,8 @@ nav {
 
 #banner p {
   margin-top: 0;
+}
+
+ul {
+  margin: 0;
 }
