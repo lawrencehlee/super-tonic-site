@@ -89,3 +89,18 @@ nav {
 ul {
   margin: 0;
 }
+
+.logo-row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.logo-row a {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.logo-row svg {
+  max-width: 36px;
+  fill: white;
+}
