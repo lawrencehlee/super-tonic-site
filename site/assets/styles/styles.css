@@ -28,9 +28,15 @@ nav {
   text-align: center;
 }
 
-.container img, iframe {
+.container img {
   width: 85%;
   max-width: 550px;
+}
+
+.container iframe {
+  width: 85%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
 }
 
 .section {
